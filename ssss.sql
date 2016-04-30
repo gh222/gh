@@ -1,4 +1,4 @@
-
+ddd
 --select * from [SSIS].[Configurations_CRA]
 Set ANSI_NULLS ON;
 Set ANSI_WARNINGS ON;
