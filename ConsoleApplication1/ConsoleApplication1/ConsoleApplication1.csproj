@@ -155,6 +155,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="Deploy.ps1" />
+    <None Include="console.bat" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
