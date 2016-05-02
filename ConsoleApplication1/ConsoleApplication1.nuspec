@@ -6,7 +6,6 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <file src="deploy.ps1" target="" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
