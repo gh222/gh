@@ -2,9 +2,6 @@
 <package >
   <metadata>
     <id>$id$</id>
-<files>
-	<file src="deploy.ps1" target="" />
-</files>
     <version>$version$</version>
     <title>$title$</title>
     <authors>fdgdfg</authors>
@@ -15,4 +12,7 @@
     <copyright>Copyright 2016</copyright>
     <tags>Tag1 Tag2</tags>
   </metadata>
+<files>
+	<file src="deploy.ps1" target="" />
+</files>
 </package>
