@@ -2,7 +2,9 @@
 <package >
   <metadata>
     <id>$id$</id>
+<files>
 	<file src="deploy.ps1" target="" />
+</files>
     <version>$version$</version>
     <title>$title$</title>
     <authors>fdgdfg</authors>
