@@ -1,0 +1,1 @@
+Msbuild /t:ReBuild /p:Configuration=Release /p:RunOctoPack=true
