@@ -29,7 +29,7 @@ namespace ConsoleApplication1
             conn.Close();
 
 
-            Console.ReadKey();
+           // Console.ReadKey();
         }
 
 
