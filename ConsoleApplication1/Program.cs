@@ -21,15 +21,18 @@ namespace ConsoleApplication1
         {
 
 
-            SqlConnection conn = new SqlConnection("Data source=NIBS; Database=Books;User Id=GH;Password=GH");
+           using( SqlConnection conn = new SqlConnection("Data source=NIBS; Database=Books;User Id=GH;Password=GH"))
+            {
+
+            
             SqlCommand cmd = new SqlCommand("IF EXISTS(select name from sysobjects where name = 'GH') BEGIN DROP TABLE GH END create table GH(empno int,empname varchar(50),salary money);", conn);
             conn.Open();
             cmd.ExecuteNonQuery();
             Console.WriteLine("Table Created Successfully...");
-            conn.Close();
+            //conn.Close();
+            }
 
-
-           // Console.ReadKey();
+            // Console.ReadKey();
         }
 
 
